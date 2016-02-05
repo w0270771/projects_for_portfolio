@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"> 
+<title>Growling Beer Pub</title>
+		<link rel="stylesheet" type="text/css" href="style_for_contact.css">
+		
+		<script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+				
+		<!-- JS -->
+		<script src="js/jquery-1.6.4.min.js"></script>
+					
+		<!-- GOOGLE FONTS -->
+		<link href='http://fonts.googleapis.com/css?family=Allan:700' rel='stylesheet' type='text/css'>
+			
+			
+		<!-- modernizr -->
+		<script src="js/modernizr.js"></script>
+		<!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+
+</head>
+<body>
+
+<div id="main_container">
+	
+	<div class="main_content">
+    	
+        <div class="top_center_box"></div>
+		
+        <div class="center_box">
+		<div id="header">
+        	<div class="logo"><a href="index.html"><img src="images/logo.jpg" alt="" title="" border="0"/></a></div>
+        </div>
+    
+            <div id="menu_tab">                                     
+                    <ul class="menu">                                                                               
+                         <li><a href="index.html" class="nav">Home</a></li>
+                         <li class="divider"></li>
+                         <li><a href="entertainment.html" class="nav">Entertainment</a></li>
+                         <li class="divider"></li>
+                         <li><a href="menu.html" class="nav">Menu</a></li>
+                         <li class="divider"></li>
+                         <li><a href="beer.html" class="nav">Beers</a></li>
+                         <li class="divider"></li>
+						 <li><a href="about.html" class="nav">About</a></li>
+						 <li class="divider"></li>
+                         <li><a href="contact.html" class="nav_selected">Contact</a></li>
+
+                    </ul>
+            </div> 
+            
+            
+                       
+            
+            <div class="content">      	
+              
+	        	
+						
+					<!-- Map -->
+				<script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=true" ></script>
+				<script type="text/javascript">
+					function initialize() {
+						var latlng = new google.maps.LatLng(44.669199,-63.613221);
+						var myOptions = {
+						  zoom: 8,
+						  center: latlng,
+						  mapTypeId: google.maps.MapTypeId.ROADMAP
+					};
+					var map = new google.maps.Map(document.getElementById("map"),
+					    myOptions);
+					}
+				</script>
+				
+				<div id="map-holder">
+					<div id="map"></div>
+					
+				</div>
+				
+				<!-- ENDS Map -->
+						
+	        					
+					<!-- form -->
+					 					
+					<form id="contact" method="post" action="mailto:w0270771@nscc.ca">
+					<div class="form_settings">
+						<table>
+							<tr>
+								<td><p><h2>Contact Us</h2></p></td>
+							</tr>
+							<tr>
+								
+								<td><label>Name</label></td>
+								<td><input name="name"  id="name" type="text" title="Enter your full name" required="required" /></td>
+							</tr>
+							<tr>
+								<td><label>Email Address</label></td>
+								<td><input name="email"  id="email" type="text" title="Enter your email address" required="required"/></td>
+							</tr>
+							<tr>
+								<td><label>Subject</label></td>
+								<td><input name="web"  id="web" type="text" title="Enter your website"  /></td>
+							</tr>
+							<tr>
+								<td><label>Comment</label></td>
+								<td><textarea  name="comments"  id="comments" rows="5" cols="20"  title="Enter your comments"></textarea></td>
+							</tr>
+							<tr>
+							<td  align="right"><input name="submit" type="submit" class="submit" id="submit" value="Submit" method="post"></td>
+							<td align="left"><input name="reset" type="reset" class="submit" id="reset" value="Reset"></td>
+							</tr>
+														
+						</table>												
+						
+						</div>
+					</form>
+					<!-- ENDS form -->
+					<br/><br/><br/><br/>
+					<div class="address">
+						<p>Address of the Pub:</p>
+						<p>5685 Leeds St, </p>
+						<p>Halifax, NS B3K 4M2</p>
+					</div> <!--address-->
+					<br/><br/><br/><br/>
+						<div class="footer" style="text-align:center;">
+								<p>Monday to Friday - Noon to 11 p.m |
+								   Saturday 		- Noon to 12 p.m |	
+									Sunday 			- Closed</p>	
+								<p>Copyright &copy;Growling Bear Pub</p>								
+				
+			</div>
+	        		    
+            </div><!--end of content-->
+			
+	
+
+
+		</div> <!--end of center box-->
+	</div> <!--end of main content-->
+</div> <!--end of main container-->
+<!-- Start google map -->
+		<script>initialize();</script>
+</body></html>

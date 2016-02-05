@@ -1,0 +1,349 @@
+body{
+background:url(images/stone_house_edited.jpg);
+overflow:auto;
+height:700px;
+margin: 0;
+padding: 0;
+}
+p{
+text-align:justify;
+line-height:110%;
+margin:0px;
+color:#b1a595;
+}
+
+a{
+text-decoration:none;
+color:#416271;
+}
+h1{
+
+margin:0 0 5px 0;
+font-family:Arial, Helvetica, sans-serif;
+font-size:15px;
+color:#8c847a;
+padding:5px 0 3px 0;
+border-bottom:1px #CCCCCC dashed;
+}
+#main_container{
+width:1100px;
+height:auto;
+margin:auto;
+padding:0px;
+position:relative;
+ 
+}
+
+#header{
+margin-left:-30px;
+width:700px;
+height:25px;
+}
+.logo{
+padding:55px 0 0 115px;
+}
+
+.center_box{
+	font-family:Arial, Helvetica, sans-serif;
+	width:1100px;
+	height:1000px;
+	margin-top:20px;
+	background-color:#621a1e;
+	border-radius:100px;
+	padding:15px;
+	opacity:0.9;
+	line-height:150%;
+
+}
+
+/*---------------- menu tab----------------------*/
+#menu_tab{
+height:auto;
+font-family:Arial, Helvetica, sans-serif;
+margin-right:350px;
+float:right;
+}
+
+ul.menu {
+list-style-type:none; 
+display:block; 
+width:800px; 
+margin-right:-540px; 
+padding:5px; 
+background:none;
+}
+
+ul.menu li {
+display:inline;
+font-size:13px;
+font-weight:bold;
+line-height:20px;
+}
+
+a.nav:link, a.nav:visited {
+display:block; 
+float:left;
+margin:0px 14px 0px 14px; 
+text-align:center;
+text-decoration:none; 
+background:none; 
+color:white;
+}
+
+a.nav_selected:link, a.nav_selected:visited {
+display:block; 
+float:left; 
+width: auto;
+margin:0px 14px 0px 14px;
+text-align:center;
+text-decoration:none; 
+color: #ccad90; 
+background:url(images/menu_arrow.gif) no-repeat top center;
+}
+
+a.nav:hover {
+color: #ccad90; 
+text-decoration:none;
+background:url(images/menu_arrow.gif) no-repeat top center;
+}
+/* FOOTER ------------------------------------------------------------*/
+
+.footer{
+	width:680px;
+	height:50px;
+	color:#b1a595;
+	padding:40px 0 0 60px;
+	position:relative;
+    right:-15%;
+	text-shadow: 0 1px rgba(255, 255, 255, .9);	
+	font-family:Arial, Helvetica, sans-serif;
+	
+}
+
+
+/*----------------content------------*/
+.content{
+width:950px;
+float:none;
+padding:70px;
+}
+
+/*---------------styling for the slideshow on the homepage------------*/
+ul.slideshow {
+  width: 1000px;
+  height: 190px;
+  overflow: hidden;
+  position: relative;
+  left:10px;
+  top:40px;
+  padding:;
+  }
+  
+ul.slideshow li {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  left: 70;
+  right: 0;
+  list-style: none;
+}
+ 
+ul.slideshow li.show {
+  z-index: 700;
+}
+ 
+ul img {
+  border: none;
+}
+
+/*----------------map------------*/
+#map{
+	display: block;
+	height: 300px;
+	width: 450px;
+	margin-top:42px;	
+}
+/*----------------------------------------------forms-------------------------------------------*/
+
+
+
+#contact label{
+	padding-left: 7px;
+	color: white;
+}
+
+.form_settings table { 
+	top:154px;
+	position: absolute;
+    right: 100px;
+   	color: white;
+	height: 300px;
+	width: 450px;
+	float:right;
+	border:5px solid;
+	border-radius:25px;
+}
+
+/* -----------------------------------------address---------------------------------------------*/
+.address{
+	display: block;
+	height: 60px;
+	width: 450px;
+	top:200px;
+	color:#b1a595;
+	text-shadow: 0 1px rgba(255, 255, 255, .9);	
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:25px;
+	font-weight:bold;
+	line-height:50px;
+}
+
+/* -----------------------------place entertainment description-------------------------------*/
+.entertainment { 
+   top:440px;
+   position: absolute;
+   right:55px;
+   height: 300px;
+   width: 400px;
+   float:right;
+   border: 2px solid;
+   padding: 10px 40px; 
+   background-color:#621a1e;
+   border-radius:20px;
+	
+}
+
+/* -----------------------------button Styling-------------------------------*/
+#btnBeerEssential {
+   border-top: 1px solid #812625;
+   background: #812625;
+   background: -webkit-gradient(linear, left top, left bottom, from(#812625), to(#812625));
+   background: -webkit-linear-gradient(top, #812625, #812625);
+   background: -moz-linear-gradient(top, #812625, #812625);
+   background: -ms-linear-gradient(top, #812625, #812625);
+   background: -o-linear-gradient(top, #812625, #812625);
+   padding: 10.5px 21px;
+   -webkit-border-radius: 9px;
+   -moz-border-radius: 9px;
+   border-radius: 9px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 24px;
+   font-family: Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+#btnBeerEssential:hover {
+   border-top-color: #621a1e;
+   background: #621a1e;
+   color: #0d0a0d;
+   }
+#btnBeerEssential:active {
+   border-top-color: #812625;
+   background: #812625;
+   }
+
+#btnBearBitter {
+   border-top: 1px solid #812625;
+   background: #812625;
+   background: -webkit-gradient(linear, left top, left bottom, from(#812625), to(#812625));
+   background: -webkit-linear-gradient(top, #812625, #812625);
+   background: -moz-linear-gradient(top, #812625, #812625);
+   background: -ms-linear-gradient(top, #812625, #812625);
+   background: -o-linear-gradient(top, #812625, #812625);
+   padding: 10.5px 21px;
+   -webkit-border-radius: 9px;
+   -moz-border-radius: 9px;
+   border-radius: 9px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 24px;
+   font-family: Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+#btnBearBitter:hover {
+   border-top-color: #621a1e;
+   background: #621a1e;
+   color: #0d0a0d;
+   }
+#btnBearBitter:active {
+   border-top-color: #812625;
+   background: #812625;
+   }
+   
+
+#btnBeerKool {
+   border-top: 1px solid #812625;
+   background: #812625;
+   background: -webkit-gradient(linear, left top, left bottom, from(#812625), to(#812625));
+   background: -webkit-linear-gradient(top, #812625, #812625);
+   background: -moz-linear-gradient(top, #812625, #812625);
+   background: -ms-linear-gradient(top, #812625, #812625);
+   background: -o-linear-gradient(top, #812625, #812625);
+   padding: 10.5px 21px;
+   -webkit-border-radius: 9px;
+   -moz-border-radius: 9px;
+   border-radius: 9px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 24px;
+   font-family: Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+#btnBeerKool:hover {
+   border-top-color: #621a1e;
+   background: #621a1e;
+   color: #0d0a0d;
+   }
+#btnBeerKool:active {
+   border-top-color: #812625;
+   background: #812625;
+   }
+   
+#btnBeerSpecial {
+   border-top: 1px solid #812625;
+   background: #812625;
+   background: -webkit-gradient(linear, left top, left bottom, from(#812625), to(#812625));
+   background: -webkit-linear-gradient(top, #812625, #812625);
+   background: -moz-linear-gradient(top, #812625, #812625);
+   background: -ms-linear-gradient(top, #812625, #812625);
+   background: -o-linear-gradient(top, #812625, #812625);
+   padding: 10.5px 21px;
+   -webkit-border-radius: 9px;
+   -moz-border-radius: 9px;
+   border-radius: 9px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 24px;
+   font-family: Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+#btnBeerSpecial:hover {
+   border-top-color: #621a1e;
+   background: #621a1e;
+   color: #0d0a0d;
+   }
+#btnBeerSpecial:active {
+   border-top-color: #812625;
+   background: #812625;
+   }
+
+ 
+ 
+
+
