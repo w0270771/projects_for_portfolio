@@ -1,0 +1,50 @@
+﻿@model MyTunes.Models.Genre
+@using PagedList.Mvc;
+@using PagedList;
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Genre</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Tracks)
+        </dt>
+        <dd>
+            <table class="table">
+                <tr>
+                    <th>Track List of Associated Genre</th>
+
+                </tr>
+                @foreach (var item in ViewBag.OnePageOfTracks)
+                {
+                    <tr>
+                        <td>
+                            @item.Name
+                        </td>
+
+                    </tr>
+                }
+            </table>
+            <br />
+
+           @Html.PagedListPager((IPagedList)ViewBag.OnePageOfTracks, page => Url.Action("Details", new { page }))
+        </dd>
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.GenreId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,63 @@
+********** 1/27/2016 2:05:11 PM **********
+Exception Type: System.Web.HttpException
+Exception: An HTTP error occurred. Page Not found. Please try again.
+Source: customErrors section - Web.config
+Stack Trace: 
+********** 1/27/2016 2:09:07 PM **********
+Exception Type: System.Exception
+Exception: The error was unhandled by application code.
+Source: customErrors section - Web.config
+Stack Trace: 
+********** 1/27/2016 2:09:12 PM **********
+Exception Type: System.Exception
+Exception: The error was unhandled by application code.
+Source: customErrors section - Web.config
+Stack Trace: 
+********** 1/27/2016 2:20:45 PM **********
+Exception Type: System.Web.HttpException
+Exception: An HTTP error occurred. Page Not found. Please try again.
+Source: customErrors section - Web.config
+Stack Trace: 
+********** 2/2/2016 9:40:43 AM **********
+Exception Type: System.Web.HttpException
+Exception: An HTTP error occurred. Page Not found. Please try again.
+Source: customErrors section - Web.config
+Stack Trace: 
+********** 2/2/2016 9:45:04 AM **********
+Exception Type: System.Exception
+Exception: The error was unhandled by application code.
+Source: Error Page
+Stack Trace: 
+********** 2/2/2016 9:47:28 AM **********
+Exception Type: System.InvalidOperationException
+Exception: An InvalidOperationException occurred in the Page_Load handler on the Default.aspx page.
+Source: Page_Error - Default.aspx
+Stack Trace: 
+   at WingtipToys._Default.Page_Load(Object sender, EventArgs e) in C:\Users\NSCCSTUDENT\Desktop\w0270771\Nayeema_WEB3000_LABS1-3\WingtipToys\Default.aspx.cs:line 15
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+********** 2/2/2016 9:47:38 AM **********
+Exception Type: System.InvalidOperationException
+Exception: An InvalidOperationException occurred in the Page_Load handler on the Default.aspx page.
+Source: Page_Error - Default.aspx
+Stack Trace: 
+   at WingtipToys._Default.Page_Load(Object sender, EventArgs e) in C:\Users\NSCCSTUDENT\Desktop\w0270771\Nayeema_WEB3000_LABS1-3\WingtipToys\Default.aspx.cs:line 15
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+********** 2/2/2016 9:52:29 AM **********
+Exception Type: System.InvalidOperationException
+Exception: An InvalidOperationException occurred in the Page_Load handler on the Default.aspx page.
+Source: Page_Error - Default.aspx
+Stack Trace: 
+   at WingtipToys._Default.Page_Load(Object sender, EventArgs e) in C:\Users\NSCCSTUDENT\Desktop\w0270771\Nayeema_WEB3000_LABS1-3\WingtipToys\Default.aspx.cs:line 15
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+

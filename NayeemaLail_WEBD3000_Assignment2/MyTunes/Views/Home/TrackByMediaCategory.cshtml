@@ -1,0 +1,39 @@
+﻿@model IEnumerable<MyTunes.ViewModels.CountTrackByMediaCategory>
+
+
+@{
+    ViewBag.Title = "MyTunes Statistics";
+}
+
+<h2>MyTunes Statistics</h2>
+
+<table>
+    <tr>
+
+        <th>
+            Media Category Name
+        </th>
+        <th></th>
+        <th>
+            Total Track by MediaCategory
+        </th>
+        
+    </tr>
+   
+@foreach (var item in Model)
+{
+    <tr>
+    <td>
+        @item.MediaCategory
+
+    </td>
+    <td></td>
+
+    <td>
+        @item.TrackCount
+    </td>
+</tr>
+   
+    
+}
+</table>

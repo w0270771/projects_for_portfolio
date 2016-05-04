@@ -1,0 +1,69 @@
+﻿@model IEnumerable<MyTunes.ViewModels.CountTrackbyGenre>
+
+
+@{
+    ViewBag.Title = "MyTunes Statistics";
+}
+
+<h2>MyTunes Statistics</h2>
+
+<table>
+    <tr>
+
+        <th>
+            Count Field
+        </th>
+        <th></th>
+        <th>
+            Total Field Count
+        </th>
+        
+    </tr>
+    <tr>
+        <td>
+            Total Tracks
+        </td>
+        <td></td>
+        <td>
+            @ViewBag.AllTracks
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Total Artists
+        </td>
+        <td></td>
+        <td>
+            @ViewBag.AllArtists
+        </td>
+    <tr>
+        <td>
+            Total Albums
+        </td>
+        <td></td>
+        <td>
+            @ViewBag.AllAlbums
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Largest Track
+        </td>
+        <td></td>
+        <td>
+            @ViewBag.LargestTrack Bytes
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Longest Track
+        </td>
+        <td></td>
+        <td>
+            @ViewBag.LongestTrack Milliseconds
+        </td>
+    </tr>
+
+
+
+</table>

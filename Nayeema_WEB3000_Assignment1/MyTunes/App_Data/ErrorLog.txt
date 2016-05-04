@@ -1,0 +1,151 @@
+********** 2/12/2016 12:26:59 PM **********
+Exception Type: System.Web.HttpException
+Exception: An HTTP error occurred. Page Not found. Please try again.
+Source: customErrors section - Web.config
+Stack Trace: 
+********** 2/12/2016 12:28:04 PM **********
+Inner Exception Type: System.InvalidOperationException
+Inner Exception: An InvalidOperationException occurred in the Page_Load handler on the Default.aspx page.
+Inner Source: MyTunes
+Inner Stack Trace: 
+   at MyTunes._Default.Page_Load(Object sender, EventArgs e) in C:\Users\NSCCSTUDENT\Desktop\w0270771\Nayeema_WEB3000_Assignment1\MyTunes\Default.aspx.cs:line 14
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Exception Type: System.Web.HttpUnhandledException
+Exception: Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source: Application_Error - Global.asax
+Stack Trace: 
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in C:\Users\NSCCSTUDENT\AppData\Local\Temp\Temporary ASP.NET Files\vs\a0abad50\6c63a9e9\App_Web_vhvy5pi3.6.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+********** 2/12/2016 12:29:46 PM **********
+Inner Exception Type: System.InvalidOperationException
+Inner Exception: An InvalidOperationException occurred in the Page_Load handler on the Default.aspx page.
+Inner Source: MyTunes
+Inner Stack Trace: 
+   at MyTunes._Default.Page_Load(Object sender, EventArgs e) in C:\Users\NSCCSTUDENT\Desktop\w0270771\Nayeema_WEB3000_Assignment1\MyTunes\Default.aspx.cs:line 14
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Exception Type: System.Web.HttpUnhandledException
+Exception: Exception of type 'System.Web.HttpUnhandledException' was thrown.
+Source: Application_Error - Global.asax
+Stack Trace: 
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in C:\Users\NSCCSTUDENT\AppData\Local\Temp\Temporary ASP.NET Files\vs\a0abad50\6c63a9e9\App_Web_vgcgkx0j.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+********** 2/12/2016 12:30:46 PM **********
+Exception Type: System.InvalidOperationException
+Exception: An InvalidOperationException occurred in the Page_Load handler on the Default.aspx page.
+Source: Page_Error - Default.aspx
+Stack Trace: 
+   at MyTunes._Default.Page_Load(Object sender, EventArgs e) in C:\Users\NSCCSTUDENT\Desktop\w0270771\Nayeema_WEB3000_Assignment1\MyTunes\Default.aspx.cs:line 14
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+********** 2/12/2016 12:35:29 PM **********
+Exception Type: System.InvalidOperationException
+Exception: An InvalidOperationException occurred in the Page_Load handler on the Default.aspx page.
+Source: Page_Error - Default.aspx
+Stack Trace: 
+   at MyTunes._Default.Page_Load(Object sender, EventArgs e) in C:\Users\NSCCSTUDENT\Desktop\w0270771\Nayeema_WEB3000_Assignment1\MyTunes\Default.aspx.cs:line 14
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+********** 2/12/2016 12:37:31 PM **********
+Exception Type: System.InvalidOperationException
+Exception: An InvalidOperationException occurred in the Page_Load handler on the Default.aspx page.
+Source: Page_Error - Default.aspx
+Stack Trace: 
+   at MyTunes._Default.Page_Load(Object sender, EventArgs e) in C:\Users\NSCCSTUDENT\Desktop\w0270771\Nayeema_WEB3000_Assignment1\MyTunes\Default.aspx.cs:line 14
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+********** 2/12/2016 12:38:23 PM **********
+Exception Type: System.Web.HttpException
+Exception: An HTTP error occurred. Page Not found. Please try again.
+Source: customErrors section - Web.config
+Stack Trace: 
+********** 2/12/2016 1:43:43 PM **********
+Exception Type: System.Exception
+Exception: The error was unhandled by application code.
+Source: customErrors section - Web.config
+Stack Trace: 
+********** 2/12/2016 2:17:42 PM **********
+Exception Type: System.Exception
+Exception: The error was unhandled by application code.
+Source: customErrors section - Web.config
+Stack Trace: 
+********** 2/12/2016 2:23:38 PM **********
+Exception Type: System.Exception
+Exception: The error was unhandled by application code.
+Source: customErrors section - Web.config
+Stack Trace: 
+********** 2/12/2016 2:27:35 PM **********
+Exception Type: System.Exception
+Exception: The error was unhandled by application code.
+Source: customErrors section - Web.config
+Stack Trace: 
+********** 2/12/2016 2:31:04 PM **********
+Exception Type: System.Exception
+Exception: The error was unhandled by application code.
+Source: customErrors section - Web.config
+Stack Trace: 
+********** 2/12/2016 2:31:27 PM **********
+Exception Type: System.Exception
+Exception: The error was unhandled by application code.
+Source: customErrors section - Web.config
+Stack Trace: 
+********** 2/12/2016 2:35:00 PM **********
+Exception Type: System.Exception
+Exception: The error was unhandled by application code.
+Source: customErrors section - Web.config
+Stack Trace: 
+********** 2/12/2016 2:54:24 PM **********
+Exception Type: System.Exception
+Exception: The error was unhandled by application code.
+Source: customErrors section - Web.config
+Stack Trace: 
+********** 2/12/2016 3:17:09 PM **********
+Exception Type: System.Exception
+Exception: The error was unhandled by application code.
+Source: customErrors section - Web.config
+Stack Trace: 
+********** 2/16/2016 8:44:54 AM **********
+Exception Type: System.Exception
+Exception: The error was unhandled by application code.
+Source: customErrors section - Web.config
+Stack Trace: 
+********** 2/16/2016 8:52:08 AM **********
+Exception Type: System.Exception
+Exception: The error was unhandled by application code.
+Source: customErrors section - Web.config
+Stack Trace: 
+********** 2/16/2016 9:06:54 AM **********
+Exception Type: System.Exception
+Exception: The error was unhandled by application code.
+Source: customErrors section - Web.config
+Stack Trace: 

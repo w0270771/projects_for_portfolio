@@ -1,0 +1,119 @@
+﻿@model MyTunes.ViewModels.ArtistIndexData
+@using PagedList;
+@using PagedList.Mvc;
+<link href="/Content/PagedList.css" rel="stylesheet" type="text/css" />
+
+@{
+    ViewBag.Title = "Artist";
+    
+
+}
+
+<h2>Artist</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+@using (Html.BeginForm("Index", "Artist", FormMethod.Get))
+{
+    <p>
+        Find by name: @Html.TextBox("SearchString", ViewBag.CurrentFilter as string)
+        <input type="submit" value="Search" />
+    </p>
+}
+
+<table class="table">
+    <tr>
+        <th>
+            Artist Name
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model.Artists)
+    {
+        string selectedRow = "";
+        if (item.ArtistId == ViewBag.ArtistID)
+        {
+            selectedRow = "success";
+        }
+        <tr class="@selectedRow">
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.ActionLink("Select", "Index", new { id = item.ArtistId }) |
+                @Html.ActionLink("Edit", "Edit", new { id = item.ArtistId }) |
+                @Html.ActionLink("Details", "Details", new { id = item.ArtistId }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.ArtistId })
+            </td>
+        </tr>
+
+    }
+</table>
+<div>
+    Page @(Model.Artists.PageCount < Model.Artists.PageNumber ? 0 : Model.Artists.PageNumber) of @Model.Artists.PageCount
+
+    @Html.PagedListPager(Model.Artists, page => Url.Action("Index", new { ArtistPage = page, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter }))
+
+</div>
+
+
+@if (Model.Albums != null)
+{
+    <h3>Albums For the Selected Artist</h3>
+    <table class="table">
+        <tr>
+            <th></th>
+            <th>Title</th>
+        </tr>
+
+        @foreach (var item in Model.Albums)
+        {
+            string selectedRow = "";
+            if (item.AlbumId == ViewBag.AlbumID)
+            {
+                selectedRow = "success";
+            }
+            <tr class="@selectedRow">
+                <td>
+                    @Html.ActionLink("Select", "Index", new { albumID = item.AlbumId })
+                </td>
+                
+                <td>
+                    @item.Title
+                </td>
+            </tr>
+        }
+
+    </table>
+}
+
+@if (Model.Tracks != null)
+{
+    <h3>
+        Tracks in the Selected Album
+    </h3>
+    <table class="table">
+        <tr>
+            <th>Name</th>
+        </tr>
+        @foreach (var item in Model.Tracks)
+        {
+            <tr>
+                <td>
+                    @item.Name
+                </td>
+                
+            </tr>
+        }
+    </table>
+}
+
+
+
+
+
+
+
